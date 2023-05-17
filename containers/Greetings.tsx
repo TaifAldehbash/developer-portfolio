@@ -50,7 +50,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <GreetingLottie animationPath="/lottie/skills/Web-development.json" />
                 </Col>
               </Row>
             </div>

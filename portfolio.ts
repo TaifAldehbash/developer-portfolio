@@ -2,7 +2,7 @@ import emoji from 'react-easy-emoji';
 import {
   EducationType,
   ExperienceType,
-  FeedbackType,
+  //FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -12,27 +12,23 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Taif Aldehbash',
+  title: "Hi all, I'm Taif",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Software developer having an experience of software applications with Flutter, SwiftUI, Android and Web applications with Flutter, HTML, JavaScript, PHP, and NodeJs Framework.",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'TaifAldehbash',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
   linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  github: 'https://github.com/TaifAldehbash',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -41,7 +37,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/Dev.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
@@ -280,7 +276,7 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/1hanzla100/Django-ecommerce',
   },
 ];
-
+/*
 export const feedbacks: FeedbackType[] = [
   {
     name: 'John Smith',
@@ -292,26 +288,26 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
   },
-];
+];*/
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Taif Alddehbash',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+    'A passionate Software Developer.',
+  author: 'Taif Aldehbash',
+  image: 'https://i.ibb.co/7WCpYCr/profile-Memoji.png',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Taif',
+    'Taif Aldehbash',
+    '@TaifAldehbash',
+    'TaifAldehbash',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Taif Portfolio ',
+    'Taif Aldehbash Portfolio',
   ],
 };
