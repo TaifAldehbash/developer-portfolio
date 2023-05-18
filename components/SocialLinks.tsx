@@ -15,7 +15,7 @@ const SocialLinks = () => {
           target="_blank"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-link" />
+            <i className="fa fa-envelope" />
           </span>
         </Button>
       )}

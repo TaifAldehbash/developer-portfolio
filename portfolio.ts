@@ -2,7 +2,6 @@ import emoji from 'react-easy-emoji';
 import {
   EducationType,
   ExperienceType,
-  //FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -15,9 +14,9 @@ export const greetings: GreetingsType = {
   name: 'Taif Aldehbash',
   title: "Hi all, I'm Taif",
   description:
-    "I'm passionate Software developer having an experience of software applications with Flutter, SwiftUI, Android and Web applications with Flutter, HTML, JavaScript, PHP, and NodeJs Framework.",
+    "I'm passionate Software Engineer having an experience of Mobile application development with Flutter, SwiftUI, Android and Web application development with Flutter, HTML, JavaScript, PHP, and NodeJs Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/1QJlJR7jKSnIs2CC2idFV49zx44nz_43J/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,13 +26,15 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
+  url: 'mailto:taifmaldehbash@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/taif-aldehbash',
   github: 'https://github.com/TaifAldehbash',
+ 
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'A SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
       title: 'Full Stack Development',
@@ -86,6 +87,47 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Yarn',
           fontAwesomeClassName: 'logos:yarn',
+        },
+      ],
+    },
+    {
+      title: 'Mobile Applications',
+      lottieAnimationFile: '/lottie/skills/MobileDev.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji(
+          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+        ),
+        emoji(
+          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+        ),
+        emoji(
+          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+        ),
+        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+        emoji(
+          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+        ),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'Ethereum',
+          fontAwesomeClassName: 'logos:ethereum',
+        },
+        {
+          skillName: 'Solidity',
+          fontAwesomeClassName: 'logos:solidity',
+        },
+        {
+          skillName: 'Web3js',
+          fontAwesomeClassName: 'logos:web3js',
+        },
+        {
+          skillName: 'Metamask',
+          fontAwesomeClassName: 'logos:metamask-icon',
+        },
+        {
+          skillName: 'Ganache',
+          fontAwesomeClassName: 'logos:ganache-icon',
         },
       ],
     },
@@ -145,47 +187,7 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
-      ],
-    },
+   
   ],
 };
 
@@ -206,9 +208,9 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
+    schoolName: 'King Saud University',
+    subHeader: 'Bachelor of Science in Software Engineering',
+    duration: '2022',
     desc: 'Participated in the research of XXX and published 3 papers.',
     grade: 'Grade A',
     descBullets: [
@@ -276,31 +278,20 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/1hanzla100/Django-ecommerce',
   },
 ];
-/*
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];*/
+
+//export const feedbacks: FeedbackType[] = [];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Taif Alddehbash',
+  title: 'Taif Alddehbash', 
   description:
-    'A passionate Software Developer.',
+    'A passionate Software Engineer.',
   author: 'Taif Aldehbash',
   image: 'https://i.ibb.co/7WCpYCr/profile-Memoji.png',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  //url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
     'Taif',
     'Taif Aldehbash',
