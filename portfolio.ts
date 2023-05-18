@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Taif Aldehbash',
   title: "Hi all, I'm Taif",
   description:
-    "I'm passionate Software Engineer having an experience of Mobile application development with Flutter, SwiftUI, Android and Web application development with Flutter, HTML, JavaScript, PHP, and NodeJs Framework.",
+    "I'm passionate Software Engineer having an experience of Mobile application development with Flutter, Swift, Android and Web application development with Flutter, HTML, JavaScript, PHP, and NodeJs Framework.",
   resumeLink:
     'https://drive.google.com/file/d/1QJlJR7jKSnIs2CC2idFV49zx44nz_43J/view?usp=sharing',
 };
@@ -41,10 +41,9 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/Dev.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive web applications'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building responsive static websites'),
       ],
       softwareSkills: [
         {
@@ -64,21 +63,12 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          skillName: 'Nodetjs',
+          fontAwesomeClassName: 'logos:nodejs',
         },
         {
           skillName: 'Python',
           fontAwesomeClassName: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
         },
         {
           skillName: 'NPM',
@@ -95,39 +85,35 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/MobileDev.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+          '⚡ Experience in developing IOS applications using Flutter & SwiftUI'
         ),
         emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+          '⚡ Experience in developing Android applications using Android Studio & Java'
         ),
         emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+          '⚡ Experience in developing AR applications using Unity & Flutter'
         ),
       ],
       softwareSkills: [
         {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
+          skillName: 'Flutter',
+          fontAwesomeClassName: 'logos:flutter',
         },
         {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
+          skillName: 'Swift',
+          fontAwesomeClassName: 'logos:swift',
         },
         {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
+          skillName: 'Android Studio',
+          fontAwesomeClassName: 'logos:android',
         },
         {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
+          skillName: 'Java',
+          fontAwesomeClassName: 'logos:java',
         },
         {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          skillName: 'Unity',
+          fontAwesomeClassName: 'logos:unity',
         },
       ],
     },
@@ -136,15 +122,20 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji('⚡ Experience of integrating databases with mobile applications'),
         emoji(
           '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Building CI/CD pipelines for automated testing & deployment using Github'
         ),
       ],
       softwareSkills: [
         // ? Check README To get icon details
+        {
+          skillName: 'Alibaba Cloud',
+          fontAwesomeClassName: 'simple-icons:alibabacloud',
+        },
         {
           skillName: 'AWS',
           fontAwesomeClassName: 'logos:aws',
@@ -154,12 +145,12 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:microsoft-azure',
         },
         {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
+          skillName: 'Google Cloud',
+          fontAwesomeClassName: 'logos:google-cloud',
         },
         {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
+          skillName: 'MySQL',
+          fontAwesomeClassName: 'logos:mysql',
         },
         {
           skillName: 'Github',
@@ -168,22 +159,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Docker',
           fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
         },
       ],
     },
@@ -211,12 +186,8 @@ export const educationInfo: EducationType[] = [
     schoolName: 'King Saud University',
     subHeader: 'Bachelor of Science in Software Engineering',
     duration: '2022',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: 'Full familiarity in how to manage and create a software project from creating plans and proposals, taking requirements, designing the project, implementation and testing, to delivery and maintenance by working in the Software Development Life Cycle (SDLC).',
     grade: 'Grade A',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
   },
 ];
 
