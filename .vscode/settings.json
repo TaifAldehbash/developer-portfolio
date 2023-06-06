@@ -1,3 +1,4 @@
 {
     "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
 }

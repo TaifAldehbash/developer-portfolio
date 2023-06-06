@@ -141,8 +141,8 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:aws',
         },
         {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
+          skillName: 'IBM Cloud',
+          fontAwesomeClassName: 'simple-icons:ibmcloud',
         },
         {
           skillName: 'Google Cloud',
@@ -210,10 +210,10 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
+    name: 'My Portfolio',
+    desc: 'Software Developer Portfolio built with react.js and next.js bootstrap that showcase my work and skills as a software developer.',
     github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    // link: 'https://developer-portfolio-1hanzla100.vercel.app/',
   },
   {
     name: 'AtlasMart',
